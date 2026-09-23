@@ -3,7 +3,7 @@
 ## Ciclo 1
 
 ### Red
-- Prueba añadida:
+- Prueba añadida: 
 - Técnica de diseño de pruebas empleada:
 - Motivo de elegir este caso:
 - Fallo observado:
@@ -21,7 +21,7 @@
 
 ### Red
 - Prueba añadida: rechazar 0 características
-- Técnica de diseño de pruebas empleada: 
+- Técnica de diseño de pruebas empleada: particiones y limite
 - Motivo de elegir este caso: 
 - Fallo observado: DIDO NOT RAISE ValueError
 
@@ -39,7 +39,7 @@
 
 ### Red
 - Prueba añadida: 5 tiny y 6 small
-- Técnica de diseño de pruebas empleada: assert
+- Técnica de diseño de pruebas empleada: particiones y limite
 - Motivo de elegir este caso: 
 - Fallo observado: 6 small
 
@@ -57,7 +57,7 @@
 
 ### Red
 - Prueba añadida: 6-15 small, 16-30 medium, <=31 large
-- Técnica de diseño de pruebas empleada: assert
+- Técnica de diseño de pruebas empleada: particiones y limite
 - Motivo de elegir este caso: 
 - Fallo observado: 16, 30, 31, 40 small
 
@@ -66,6 +66,6 @@
 - Resultado de las pruebas: passed
 
 ### Refactor
-- Mejora realizada, o motivo por el que no era necesaria:
+- Mejora realizada, o motivo por el que no era necesaria: pytest.mark.parametrize para evitar boiler plate code
 
 ---

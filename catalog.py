@@ -63,7 +63,9 @@ def count_features(model_path: Path) -> int:
 
 
 def classify_model_size(feature_count: int) -> str:
-    raise NotImplementedError("Implementar mediante TDD")
+    if feature_count < 1:
+        raise ValueError("feature_count debe ser positivo")
+    return "tiny"
 
 
 def validate_catalog(

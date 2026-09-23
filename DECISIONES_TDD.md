@@ -38,14 +38,14 @@
 ## Ciclo 3
 
 ### Red
-- Prueba añadida: 5 tiny 6 small
+- Prueba añadida: 5 tiny y 6 small
 - Técnica de diseño de pruebas empleada: assert
 - Motivo de elegir este caso: 
 - Fallo observado: 6 small
 
 ### Green
-- Código mínimo escrito:
-- Resultado de las pruebas:
+- Código mínimo escrito: if else feature_count <=5 tiny else small 
+- Resultado de las pruebas: passed
 
 ### Refactor
 - Mejora realizada, o motivo por el que no era necesaria:

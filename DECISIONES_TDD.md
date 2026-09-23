@@ -50,4 +50,22 @@
 ### Refactor
 - Mejora realizada, o motivo por el que no era necesaria:
 
+
+---
+
+## Ciclo 4
+
+### Red
+- Prueba añadida: 6-15 small, 16-30 medium, <=31 large
+- Técnica de diseño de pruebas empleada: assert
+- Motivo de elegir este caso: 
+- Fallo observado: 16, 30, 31, 40 small
+
+### Green
+- Código mínimo escrito: elif feature_count for 16, 30 
+- Resultado de las pruebas: passed
+
+### Refactor
+- Mejora realizada, o motivo por el que no era necesaria:
+
 ---
